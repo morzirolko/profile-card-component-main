@@ -70,10 +70,14 @@ body{
 .name > h3{
     margin-bottom: 0.5rem;
 }
+.city{
+    font-size: 0.9rem;
+}
 hr{
     margin-top: 2rem;
     width: 100%;
-    overflow: hidden;
+    border: none;
+    border-top: 1px solid;
     color: var(--DesaturatedBlue);
     opacity: 0.4;
     
@@ -89,7 +93,7 @@ hr{
     padding: 1rem;
 }
 .Stats > p {
-    font-size: 0.7rem;
+    font-size: 0.6rem;
     color: var(--GrayishBlue);
     margin: 0;
     opacity: 0.9;
@@ -97,4 +101,5 @@ hr{
 .Stats > h3 {
     margin-bottom: 0.4rem;
     margin-top: 0.8rem;
+    font-size: 1rem ;
 }
